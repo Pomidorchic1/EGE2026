@@ -29,13 +29,35 @@ print(type(my_str_1))
 my_list = [1, 2.2, 3, 4, 'Test']
 print(type(my_list))
 
-#tuple / кортеж
+# tuple / кортеж
 my_tuple = (1, 2, 3, 4, '52')
 print(type(my_tuple))
 
 # Извлечение элемента последовательности.
 # Обращаемся на нужную позицию по индексу.
 # Индексация всегда начинается слева от 0.
-print(my_str_1[0]) # Нулевой символ строки
-print(my_list[3]) # Третий элемент списка
-print(my_tuple[2]) # Второй элемент кортежа
+print(my_str_1[0])  # Нулевой символ строки
+print(my_list[3])  # Третий элемент списка
+print(my_tuple[2])  # Второй элемент кортежа
+
+test = ([8, 9, 'hello', 'lol'], ' good')
+print(test[0][3][1])
+
+# Множество
+# set / Множество
+# Хранит в себе только уникальные элементы
+# Не упорядочены
+my_set_1 = {1, 5, 2, 1, 1, 2, 3, 1, 1, 2, 3}
+my_set_2 = {'k', 'l', 'l', 'e', "p"}
+print(type(my_set_2))
+
+# Словарь
+# dict / dictionary / словарь
+my_dict = {"name": "Anna", "age": 67}
+print(type(my_dict))
+
+# Логический
+# boll/ boolean / Булевый/ Логический тип
+my_bool_1 = True
+my_bool_2 = False
+print(type(my_bool_1))
