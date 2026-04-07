@@ -33,6 +33,7 @@ for x in range(1, 17):
         dot(3, "red")
 
 update()
+
 done()
 
 print((16 + 22) * 2 - 4)

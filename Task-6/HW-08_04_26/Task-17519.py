@@ -31,6 +31,7 @@ for x in range (0,2):
         dot(3,"red")
 
 update()
+
 done()
 
 print(2 * 22)
