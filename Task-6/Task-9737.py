@@ -1,4 +1,4 @@
-    from turtle import *
+from turtle import *
 screensize(10_000, 10_000)
 tracer(False)
 lt(90)
