@@ -25,8 +25,8 @@ for i in range(9):
     rt(90)
 down()
 up()
-for x in range (0,2):
-    for y in range (0,22):
+for x in range (0,2): # 2 - 0 = 2 - 1 = 1
+    for y in range (0,22): # 22 - 0 = 22 - 1 = 21
         goto (x * m, y * m)
         dot(3,"red")
 
@@ -34,4 +34,4 @@ update()
 
 done()
 
-print(2 * 22)
+print((21+1) * 2)
