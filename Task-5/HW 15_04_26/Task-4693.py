@@ -6,6 +6,6 @@ for N in range(1, 100_000):
     else:
         R = '11' + R[2:] + '1'
     R = int(R, 2)
-    if R >= 40:
+    if R > 40:
         ans.append(N)
 print(min(ans))
