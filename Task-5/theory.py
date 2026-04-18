@@ -55,9 +55,21 @@ summ = R.count('1')
 
 # Сумма цифр в любой системе (до 10)
 R = '1234567890'
-summ = sum(map(int,R))
+summ = sum(map(int, R))
 
 # Сумма цифр в любой системе (до 36)
 R = 'ABC5'
-summ = sum(map(lambda x: int(x,36),R))
+summ = sum(map(lambda x: int(x, 36), R))
 
+# Усложненные вопросы задания
+R, N = 10, 20
+ans = []
+ans.append([R, N])
+# Максимальный N при максимальном R
+print(max(ans))
+# Минимальный N при минимальном R
+print(min(ans))
+# Минимальный N при максимальном R
+print(max(ans, key=lambda x: (x[0], -x[1]))
+# Максимальный N при минимальном  R
+print(min(ans, key=lambda x: (x[0], -x[1]))
