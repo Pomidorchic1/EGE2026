@@ -1,4 +1,5 @@
 num = 4 ** 36 + 3 * 4 ** 20 + 4 ** 15 + 2 * 4 ** 7 + 49
-print(hex(num)[2:])
+num_hex =hex(num)[2:]
+print(len(set(num_hex))
 # ручками )
 
