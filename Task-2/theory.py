@@ -31,3 +31,15 @@
 
 # Упрощение эквивалентности
 # A ≡ B = ¬A ∧ ¬B ∨ A ∧ B
+
+def f(x, y, z):
+    print(x, y, z)
+
+
+# args
+test = [5, 6, 7]
+f(*test)
+
+# kwargs
+test = {'z': 1, 'x': 2, 'y': 3}
+f(**test)
