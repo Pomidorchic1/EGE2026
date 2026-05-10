@@ -37,3 +37,9 @@ for x in range(-21, 5):
         dot(3, 'red')
 update()
 done()
+
+# 7
+# 10/11
+# 12/13
+#10
+#20

@@ -1,2 +1,2 @@
-from math import *
-print(log2(24571))
+R = '123456789'
+print(R[-1])
