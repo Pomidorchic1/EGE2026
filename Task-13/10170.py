@@ -1,6 +1,5 @@
 from ipaddress import *
 from ipaddress import ip_network
-
 ip_1 = ip_address('193.175.175.231')
 ip_2 = ip_address('193.175.176.118')
 
